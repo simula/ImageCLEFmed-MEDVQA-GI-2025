@@ -2,10 +2,6 @@
 
 The **ImageCLEFmed-MEDVQA-GI (3rd edition)** challenge focuses on integrating Visual Question Answering (VQA) with synthetic gastrointestinal (GI) data to enhance diagnostic accuracy and AI learning algorithms. This year's challenge includes two subtasks designed to push the boundaries of both image analysis and synthetic medical image generation, aiming to improve diagnostic processes and patient outcomes.
 
-## Official Repository
-
-Link to official GitHub repository: [https://github.com/ImageCLEF/2025_ImageCLEFmed_MEDVQA](https://github.com/ImageCLEF/2025_ImageCLEFmed_MEDVQA)
-
 ## Task Descriptions
 
 ### Subtask 1: Algorithm Development for Question Interpretation and Response
