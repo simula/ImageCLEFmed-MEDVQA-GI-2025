@@ -26,7 +26,7 @@ The dataset for 2025 is an extended version of the HyperKvasir dataset ([dataset
 -   New synthetic image data created to simulate realistic diagnostic scenarios.
 -   Segmentation masks for key image elements like polyps and instruments.
 
-*   **Development Dataset \[ Coming Soon \]**
+*   **Development Dataset \[ [download](https://huggingface.co/datasets/SimulaMet-HOST/Kvasir-VQA) \]**
 *   **Test Dataset \[ Coming Soon \]**
 
 ## Evaluation Methodology
