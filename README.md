@@ -1,71 +1,94 @@
-# ImageCLEFmed-MEDVQA-GI-2025
 
-The **ImageCLEFmed-MEDVQA-GI (3rd edition)** challenge focuses on integrating Visual Question Answering (VQA) with synthetic gastrointestinal (GI) data to enhance diagnostic accuracy and AI learning algorithms. This year's challenge includes two subtasks designed to push the boundaries of both image analysis and synthetic medical image generation, aiming to improve diagnostic processes and patient outcomes.
+# 🌟 **ImageCLEFmed-MEDVQA-GI-2025** 🌟
 
-## Task Descriptions
+The **ImageCLEFmed-MEDVQA-GI (3rd edition)** challenge 🔬 focuses on integrating **Visual Question Answering (VQA)** with **synthetic gastrointestinal (GI) data** 🏥 to enhance **diagnostic accuracy** 🏃‍♂️💡 and **AI learning algorithms** 🤖.  
 
-### Subtask 1: Algorithm Development for Question Interpretation and Response
+This year's challenge includes **two exciting subtasks** 🚀 designed to push the boundaries of **image analysis** 🖼️ and **synthetic medical image generation** 🧬, aiming to improve **diagnostic processes** 🏨 and **patient outcomes** 💖.
 
-This task challenges participants to develop algorithms capable of accurately interpreting and responding to questions based on GI images. These questions may range from identifying abnormalities to describing image content. The focus is on creating robust systems that aid medical diagnostics by combining image and text understanding.
+---
 
-#### Example Questions:
+## 🎯 **Task Descriptions**  
 
--   How many polyps are in the image?
--   Are there any abnormalities in the image?
--   What disease is visible in the image?
+### 🔍 **Subtask 1: Algorithm Development for Question Interpretation and Response**  
+💡 **Goal:** Develop algorithms 🤖 that can accurately interpret and answer 🗣️ questions based on GI images 🏥. These questions may involve identifying abnormalities ⚠️, counting objects 🔢, or describing image content 📝.  
 
-### Subtask 2: Creation of High-Fidelity Synthetic GI Images
+✨ **Focus:** Create robust systems that combine **image** 🖼️ and **text understanding** 🗨️ to assist medical diagnostics 🏨.
 
-Participants in this subtask are tasked with generating synthetic GI images that closely resemble real medical images in detail and variability. These images should be realistic enough to support diagnostic systems effectively, providing a privacy-preserving alternative to real patient data.
+#### 💬 **Example Questions:**  
+- 🔢 *How many polyps are in the image?*  
+- ⚡ *Are there any abnormalities in the image?*  
+- 🏷️ *What disease is visible in the image?*  
 
-## Data
+---
 
-The dataset for 2025 is an extended version of the HyperKvasir dataset ([datasets.simula.no/hyper-kvasir](https://datasets.simula.no/hyper-kvasir)) and includes:
+### 🎨 **Subtask 2: Creation of High-Fidelity Synthetic GI Images**  
+🖌️ **Goal:** Generate **synthetic GI images** 🧬 that are **indistinguishable** from real medical images 🏥, rich in detail and variability.  
 
--   GI images with detailed Visual Question Answering (VQA) annotations.
--   New synthetic image data created to simulate realistic diagnostic scenarios.
--   Segmentation masks for key image elements like polyps and instruments.
+🌱 **Why?** Provide **privacy-preserving alternatives** 🔒 to real patient data and **support diagnostic systems** 💡.
 
-*   **Development Dataset \[ [download](https://huggingface.co/datasets/SimulaMet-HOST/Kvasir-VQA) \]**
-*   **Test Dataset \[ Coming Soon \]**
+---
 
-## Evaluation Methodology
+## 📂 **Data**  
+The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset** 🔗 ([datasets.simula.no/hyper-kvasir](https://datasets.simula.no/hyper-kvasir)) and includes:
 
-### Subtask 1: Question Interpretation and Response
+- 🏥 **GI images** with detailed **VQA annotations** 📝  
+- 🌟 **New synthetic image data** simulating realistic diagnostic scenarios  
+- 🎯 **Segmentation masks** for key elements like **polyps** 🩺 and **instruments** 🛠️  
 
--   **Metrics**: Accuracy, Precision, Recall, F1 Score.
--   Submissions will be evaluated on the correctness and relevance of answers based on the provided questions and images.
+### 📥 **Datasets**  
+- 🏃 **Development Dataset:** [Download Here](https://huggingface.co/datasets/SimulaMet-HOST/Kvasir-VQA)  
+- 🕑 **Test Dataset:** *Coming Soon* ⏳  
 
-### Subtask 2: Synthetic Image Quality
+---
 
--   **Subjective Evaluation**: Expert reviewers will assess realism and diagnostic utility.
--   **Objective Evaluation**:
-    -   **Fréchet Inception Distance (FID)**: Measures the similarity between synthetic and real image distributions.
-    -   **Structural Similarity Index Measure (SSIM)**: Quantifies structural resemblance to real images.
+## 🧪 **Evaluation Methodology**  
 
-## Online Leaderboard
+### 🏃 **Subtask 1: Question Interpretation and Response**  
+- 📊 **Metrics:** 🎯 *Accuracy*, 🔍 *Precision*, ♻️ *Recall*, and 🏆 *F1 Score*.  
+- 📜 **Evaluation:** Based on **correctness** ✅ and **relevance** 📝 of answers using the provided **questions** 💬 and **images** 🖼️.
 
-An online leaderboard will display participants' performance in real-time, encouraging iterative improvements and fostering competition.
+---
 
-## Preliminary Schedule
+### 🖼️ **Subtask 2: Synthetic Image Quality**  
+- 👀 **Subjective Evaluation:** 🩺 *Expert reviewers* will assess **realism** 🌟 and **diagnostic utility** 🏥.  
+- 🎯 **Objective Evaluation:**  
+  - 📉 **Fréchet Inception Distance (FID):** Similarity between synthetic and real images.  
+  - 🏗️ **Structural Similarity Index Measure (SSIM):** Resemblance in structure 🏛️.
 
--   **20 December 2024**: Registration opens.
--   **14 February 2025**: Release of the training and validation datasets.
--   **14 March 2025**: Release of the test datasets.
--   **25 April 2025**: Registration closes.
--   **10 May 2025**: Run submission deadline.
--   **17 May 2025**: Release of processed results by the task organizers.
--   **30 May 2025**: Submission of participant papers [CEUR-WS].
--   **27 June 2025**: Notification of acceptance.
--   **7 July 2025**: Camera-ready copy of participant papers and extended lab overviews [CEUR-WS].
--   **9-12 September 2025**: CLEF 2025, Madrid, Spain.
+---
 
-## Organizers
+## 🏆 **Online Leaderboard**  
+🚀 Compete in **real-time** with a **dynamic leaderboard** 📈 showing participants' performance!  
+💡 *Iterate, Improve & Win!* 🏅
 
--   **Steven A. Hicks** (steven@simula.no), SimulaMet, Norway
--   **Michael A. Riegler** (michael@simula.no), SimulaMet, Norway
--   **Vajira Thambawita** (vajira@simula.no), SimulaMet, Norway
--   **Pål Halvorsen** (paalh@simula.no), SimulaMet, Norway
--   **Sushant Gautam** (sushant@simula.no), SimulaMet, Norway
+---
 
-For further details and registration, visit: [https://www.imageclef.org/2025](https://www.imageclef.org/2025).
+## 🗓️ **Preliminary Schedule**  
+
+- 📅 **20 December 2024:** 📝 *Registration opens*  
+- 📅 **14 February 2025:** 🏃 *Release of training & validation datasets*  
+- 📅 **14 March 2025:** ⏳ *Test datasets released*  
+- 📅 **25 April 2025:** 🚪 *Registration closes*  
+- 📅 **10 May 2025:** ⏲️ *Run submission deadline*  
+- 📅 **17 May 2025:** 🏆 *Processed results released*  
+- 📅 **30 May 2025:** ✍️ *Participant papers submission [CEUR-WS]*  
+- 📅 **27 June 2025:** 💌 *Notification of acceptance*  
+- 📅 **7 July 2025:** 🖨️ *Camera-ready paper submission [CEUR-WS]*  
+- 🏛️ **9-12 September 2025:** 🌍 *CLEF 2025, Madrid, Spain 🇪🇸*  
+
+---
+
+## 💼 **Organizers**  
+✨ For any queries, feel free to reach out to our amazing team:  
+- 👨‍🔬 **Steven A. Hicks** 📧 [steven@simula.no](mailto:steven@simula.no)  
+- 🧑‍💻 **Michael A. Riegler** 📧 [michael@simula.no](mailto:michael@simula.no)  
+- 🧑‍🔬 **Vajira Thambawita** 📧 [vajira@simula.no](mailto:vajira@simula.no)  
+- 👨‍🏫 **Pål Halvorsen** 📧 [paalh@simula.no](mailto:paalh@simula.no)  
+- 🧑‍🎓 **Sushant Gautam** 📧 [sushant@simula.no](mailto:sushant@simula.no)  
+
+---
+
+## 🔗 **For More Details & Registration**  
+🌐 Visit: 👉 [**imageclef.org/2025**](https://www.imageclef.org/2025)  
+
+💥 *Join the challenge, push the boundaries, and make a difference in medical AI!* 🚀🧬
