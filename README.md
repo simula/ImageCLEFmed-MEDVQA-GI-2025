@@ -1,7 +1,7 @@
 
 # 🌟 **ImageCLEFmed-MEDVQA-GI-2025** 🌟
 
-[**imageclef.org/2025**](https://www.imageclef.org/2025)
+[**Registraion**](https://www.imageclef.org/2025)
 
 The **ImageCLEFmed-MEDVQA-GI (3rd edition)** challenge 🔬 focuses on integrating **Visual Question Answering (VQA)** with **synthetic gastrointestinal (GI) data** 🏥 to enhance **diagnostic accuracy** 🏃‍♂️💡 and **AI learning algorithms** 🤖.  
 
