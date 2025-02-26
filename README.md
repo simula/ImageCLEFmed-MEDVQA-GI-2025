@@ -86,7 +86,7 @@ The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset
 - 🧑‍💻 **Michael A. Riegler** 📧 [michael@simula.no](mailto:michael@simula.no)  
 - 🧑‍🔬 **Vajira Thambawita** 📧 [vajira@simula.no](mailto:vajira@simula.no)  
 - 👨‍🏫 **Pål Halvorsen** 📧 [paalh@simula.no](mailto:paalh@simula.no)  
-- 🧑‍🎓 **Sushant Gautam** 📧 [sushant@simula.no](mailto:sushant@simula.no)  
+- 🧑‍🎓 **[Sushant Gautam](http://sushant.info.np)** 📧 [sushant@simula.no](mailto:sushant@simula.no)  
 
 ---
 
