@@ -12,7 +12,7 @@ This year's challenge includes **two exciting subtasks** 🚀 designed to push t
 ## 🎯 **Task Descriptions**  
 
 ### 🔍 **Subtask 1: Algorithm Development for Question Interpretation and Response**  
-💡 **Goal:** Develop algorithms 🤖 that can accurately interpret and answer 🗣️ questions based on GI images 🏥. These questions may involve identifying abnormalities ⚠️, counting objects 🔢, or describing image content 📝.  
+💡 **Goal:** This subtask requires participants to develop AI models capable of accurately interpreting and answering clinical questions based on gastrointestinal (GI) images from the Kvasir-VQA dataset. The dataset consists of 6,500 annotated images covering a range of conditions and medical instruments. Questions are categorized into six types: Yes/No, Single-Choice, Multiple-Choice, Color-Related, Location-Related, and Numerical Count, necessitating the processing of both visual and textual information. Model performance will be evaluated using multiple quantitative metrics. 
 
 ✨ **Focus:** Create robust systems that combine **image** 🖼️ and **text understanding** 🗨️ to assist medical diagnostics 🏨.
 
