@@ -103,7 +103,7 @@ medvqa validate_and_submit --competition=gi-2025 --task=1/2 --repo_id=<your_repo
 ```
 This will make a submisision and your username, along with the task and time, should be visible on [the portal](https://simulamet-medvqa.hf.space) for it to be considered officially submitted.
 The submission library will make your Hugging Face repository public but gated, granting the organizers access to your repo.
-It must remain unchanged at least until the results of the competition are announced. However, you are free to make your model public. 
+It must remain unchanged at least until the results of the competition are announced. However, you are free to make your model fully public (non-gated). 
 
 If you encounter any issues with submission, **don’t hesitate to contact us**.
 
