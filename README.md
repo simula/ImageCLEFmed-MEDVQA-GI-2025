@@ -1,8 +1,8 @@
 # 🌟 **ImageCLEFmed-MEDVQA-GI-2025** 🌟
 
-[**Registraion**](https://www.imageclef.org/2025#registration)
+📝 [**Registraion**](https://www.imageclef.org/2025#registration) | 📋 [View Registered Submissions](https://simulamet-medvqa.hf.space)
 
-The **ImageCLEFmed-MEDVQA-GI (3rd edition)** challenge 🔬 focuses on integrating **Visual Question Answering (VQA)** with **synthetic gastrointestinal (GI) data** 🏥 to enhance **diagnostic accuracy** 🏃‍♂️💡 and **AI learning algorithms** 🤖.  
+The [**ImageCLEFmed-MEDVQA-GI**](https://www.imageclef.org/2025/medical/vqa) (3rd edition) challenge 🔬 focuses on integrating **Visual Question Answering (VQA)** with **synthetic gastrointestinal (GI) data** 🏥 to enhance **diagnostic accuracy** 🏃‍♂️💡 and **AI learning algorithms** 🤖.  
 
 This year's challenge includes **two exciting subtasks** 🚀 designed to push the boundaries of **image analysis** 🖼️ and **synthetic medical image generation** 🧬, aiming to improve **diagnostic processes** 🏨 and **patient outcomes** 💖.
 
@@ -31,10 +31,8 @@ This year's challenge includes **two exciting subtasks** 🚀 designed to push t
 
 ## 📂 **Data**  
 The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset** 🔗 ([datasets.simula.no/hyper-kvasir](https://datasets.simula.no/hyper-kvasir)) and includes:
-
-- 🏥 **GI images** with detailed **VQA annotations** 📝  
-- 🌟 **New synthetic image data** simulating realistic diagnostic scenarios  
-- 🎯 **Segmentation masks** for key elements like **polyps** 🩺 and **instruments** 🛠️  
+- 🏥 More [**GI image data**](https://datasets.simula.no/kvasir-vqa/) than previous years with detailed **VQA annotations** simulating realistic diagnostic scenarios  📝  
+- 🎯 [**Synthetically generated captions**]([https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/kvasir-captions.json](https://raw.githubusercontent.com/simula/ImageCLEFmed-MEDVQA-GI-2025/refs/heads/main/kvasir-captions.json)) that can be used for image generation task. 🛠️  
 
 ### 📥 **Datasets**  
 - 🏃 **Development Dataset:** [Download Here](https://huggingface.co/datasets/SimulaMet-HOST/Kvasir-VQA)  
@@ -91,6 +89,9 @@ The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset
 ---
 
 ## 🔗 **For More Details & Registration**  
-🌐 Visit: 👉 [**imageclef.org/2025**](https://www.imageclef.org/2025)  
+📝 Visit:  👉 [**imageclef.org/2025#registration**](https://www.imageclef.org/2025#registration) 
+
+📋 View Registered Submissions: 👉 [simulamet-medvqa.hf.space](https://simulamet-medvqa.hf.space)
+
 
 💥 *Join the challenge, push the boundaries, and make a difference in medical AI!* 🚀🧬
