@@ -20,19 +20,21 @@ This year's challenge includes **two exciting subtasks** 🚀 designed to push t
 - ⚡ *Are there any abnormalities in the image?*  
 - 🏷️ *What disease is visible in the image?*  
 
+
+#### 💥 Example Training Notebook: [Demo with HuggingFace Trainer](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_Sample_Notebook.ipynb), [Demo with SWIFT CLI](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_with_ms_swift_Sample_Notebook.ipynb)
 ---
 
 ### 🎨 **Subtask 2: Creation of High-Fidelity Synthetic GI Images**  
 🖌️ **Goal:** Generate **synthetic GI images** 🧬 that are **indistinguishable** from real medical images 🏥, rich in detail and variability.  
 
 🌱 **Why?** Provide **privacy-preserving alternatives** 🔒 to real patient data and **support diagnostic systems** 💡.
-
+#### 💥 Example Training Notebook: [Demo with HuggingFace Diffusers]([https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_with_ms_swift_Sample_Notebook.ipynb](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_2_with_diffusers_Sample_Notebook.ipynb))
 ---
 
 ## 📂 **Data**  
 The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset** 🔗 ([datasets.simula.no/hyper-kvasir](https://datasets.simula.no/hyper-kvasir)) and includes:
-- 🏥 More [**GI image data**](https://datasets.simula.no/kvasir-vqa/) than previous years with detailed **VQA annotations** simulating realistic diagnostic scenarios  📝  
-- 🎯 [**Synthetically generated captions**]([https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/kvasir-captions.json](https://raw.githubusercontent.com/simula/ImageCLEFmed-MEDVQA-GI-2025/refs/heads/main/kvasir-captions.json)) that can be used for image generation task. 🛠️  
+- 🏥 More **images** [(from KVASIR-VQA)](https://datasets.simula.no/kvasir-vqa/) than previous years with detailed **VQA annotations** simulating realistic diagnostic scenarios  📝  
+- 🎯 [**Synthetically generated captions**](https://raw.githubusercontent.com/simula/ImageCLEFmed-MEDVQA-GI-2025/refs/heads/main/kvasir-captions.json) that can be used for image generation task. 🛠️   
 
 ### 📥 **Datasets**  
 - 🏃 **Development Dataset:** [Download Here](https://huggingface.co/datasets/SimulaMet-HOST/Kvasir-VQA)  
@@ -46,7 +48,6 @@ The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset
 - 📊 **Metrics:** 🎯 *Accuracy*, 🔍 *Precision*, ♻️ *Recall*, and 🏆 *F1 Score*.  
 - 📜 **Evaluation:** Based on **correctness** ✅ and **relevance** 📝 of answers using the provided **questions** 💬 and **images** 🖼️.
 
-#### 💥 Example Training Notebook: [Demo with HuggingFace Trainer](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_Sample_Notebook.ipynb), [Demo with SWIFT CLI](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_with_ms_swift_Sample_Notebook.ipynb)
 ---
 
 ### 🖼️ **Subtask 2: Synthetic Image Quality**  
@@ -54,12 +55,55 @@ The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset
 - 🎯 **Objective Evaluation:**  
   - 📉 **Fréchet Inception Distance (FID):** Similarity between synthetic and real images.  
   - 🏗️ **Structural Similarity Index Measure (SSIM):** Resemblance in structure 🏛️.
-#### 💥 Example Training Notebook: [Demo with HuggingFace Diffusers]([https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_with_ms_swift_Sample_Notebook.ipynb](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_2_with_diffusers_Sample_Notebook.ipynb))
 ---
 
-## 🏆 **Online Leaderboard**  
-🚀 Compete in **real-time** with a **dynamic leaderboard** 📈 showing participants' performance!  
-💡 *Iterate, Improve & Win!* 🏅
+## 🏆 **Submission System**  
+🚀 [View Registered Submissions](https://simulamet-medvqa.hf.space)
+
+We use the [`medvqa`](https://pypi.org/project/medvqa/) Python package to **validate and submit** models to the official system.
+The model that needs to be submiited is expected to be in a HuggingFace repository.
+
+### 📦 Installation  
+```bash
+pip install -U medvqa
+```
+> The library is under **active development**. Always ensure you're using the **latest version**.
+Your HuggingFace repo **must include** a standalone script named:
+- `submission_task1.py` for Task 1  
+- `submission_task2.py` for Task 2  
+
+Use the provided **template script**, and make sure to:
+- Modify all `TODO` sections  
+- Add required information directly in the script
+
+### ✅ Validate Before Submitting  
+First make sure your submission script works fine in your working environment and it loads the model correctly from your submission repo and generates outputs in the required format.
+
+```bash
+python submission_task1.py
+```
+
+Next, you can validate the script to work independently. You can try it in a new venv:
+```bash
+medvqa validate --competition=gi-2025 --task=1/2 --repo_id=<your_repo_id>
+```
+- `--competition`: Set to `gi-2025`
+- `--task`: Use `1` for Task 1 or `2` for Task 2  
+- `--repo_id`: Your **HuggingFace model repo ID** (e.g., `SushantGautam/XXModelCheckpoint`)
+- 
+#### 📄 Additional Dependencies  
+If your code requires extra packages, you must include a `requirements.txt` in the **root of the repo**. The system will install these automatically during validation/submission.
+Else you will get package missing errors.
+
+### 🚀 Submission Command  
+If validation is okey, you can just run:
+```bash
+medvqa validate_and_submit --competition=gi-2025 --task=1/2 --repo_id=<your_repo_id>
+```
+This will make a submisision and your username will be visible on [the portal](https://simulamet-medvqa.hf.space).
+
+
+If you encounter any issues with submission, **don’t hesitate to contact us**.
 
 ---
 
