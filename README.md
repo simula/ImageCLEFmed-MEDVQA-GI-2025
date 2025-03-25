@@ -69,7 +69,7 @@ The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset
 
 - 📅 **20 December 2024:** 📝 *Registration opens*  
 - 📅 **14 February 2025:** 🏃 *Release of training & validation datasets*  
-- 📅 **14 March 2025:** ⏳ *Test datasets released*  
+- 📅 **9 April 2025:** ⏳ *Test datasets released*  
 - 📅 **25 April 2025:** 🚪 *Registration closes*  
 - 📅 **10 May 2025:** ⏲️ *Run submission deadline*  
 - 📅 **17 May 2025:** 🏆 *Processed results released*  
