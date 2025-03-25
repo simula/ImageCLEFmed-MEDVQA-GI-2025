@@ -48,6 +48,7 @@ The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset
 - 📊 **Metrics:** 🎯 *Accuracy*, 🔍 *Precision*, ♻️ *Recall*, and 🏆 *F1 Score*.  
 - 📜 **Evaluation:** Based on **correctness** ✅ and **relevance** 📝 of answers using the provided **questions** 💬 and **images** 🖼️.
 
+#### 💥 Example Training Notebook: [Demo with HuggingFace Trainer](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_Sample_Notebook.ipynb), [Demo with SWIFT CLI](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_with_ms_swift_Sample_Notebook.ipynb)
 ---
 
 ### 🖼️ **Subtask 2: Synthetic Image Quality**  
@@ -55,7 +56,7 @@ The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset
 - 🎯 **Objective Evaluation:**  
   - 📉 **Fréchet Inception Distance (FID):** Similarity between synthetic and real images.  
   - 🏗️ **Structural Similarity Index Measure (SSIM):** Resemblance in structure 🏛️.
-
+#### 💥 Example Training Notebook: [Demo with HuggingFace Diffusers]([https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_with_ms_swift_Sample_Notebook.ipynb](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_2_with_diffusers_Sample_Notebook.ipynb))
 ---
 
 ## 🏆 **Online Leaderboard**  
