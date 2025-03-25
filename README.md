@@ -68,6 +68,7 @@ The model that needs to be submiited is expected to be in a HuggingFace reposito
 pip install -U medvqa
 ```
 > The library is under **active development**. Always ensure you're using the **latest version**.
+
 Your HuggingFace repo **must include** a standalone script named:
 - [`submission_task1.py`](https://raw.githubusercontent.com/SushantGautam/MedVQA/refs/heads/main/medvqa/submission_samples/gi-2025/submission_task1.py) for Task 1  
 - [`submission_task2.py`](https://raw.githubusercontent.com/SushantGautam/MedVQA/refs/heads/main/medvqa/submission_samples/gi-2025/submission_task2.py) for Task 2  
