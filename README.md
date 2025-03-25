@@ -38,7 +38,7 @@ The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset
 
 ### 📥 **Datasets**  
 - 🏃 **Development Dataset:** [Kvasir-VQA](https://huggingface.co/datasets/SimulaMet-HOST/Kvasir-VQA) and [captions](https://raw.githubusercontent.com/simula/ImageCLEFmed-MEDVQA-GI-2025/refs/heads/main/kvasir-captions.json).
-- 🕑 **Test Dataset:** *Coming Soon* ⏳  
+- 🕑 **Test Dataset:** *Coming Soon* ⏳  You can split the training dataset for model development now.
 
 ---
 
