@@ -28,7 +28,7 @@ This year's challenge includes **two exciting subtasks** 🚀 designed to push t
 🖌️ **Goal:** Generate **synthetic GI images** 🧬 that are **indistinguishable** from real medical images 🏥, rich in detail and variability.  
 
 🌱 **Why?** Provide **privacy-preserving alternatives** 🔒 to real patient data and **support diagnostic systems** 💡.
-#### 💥 Example Training Notebook: [Demo with HuggingFace Diffusers]([https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_with_ms_swift_Sample_Notebook.ipynb](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_2_with_diffusers_Sample_Notebook.ipynb))
+#### 💥 Example Training Notebook: [Demo with HuggingFace Diffusers](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_2_with_diffusers_Sample_Notebook.ipynb)
 ---
 
 ## 📂 **Data**  
