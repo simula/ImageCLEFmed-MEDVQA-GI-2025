@@ -37,7 +37,7 @@ The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset
 - 🎯 [**Synthetically generated captions**](https://raw.githubusercontent.com/simula/ImageCLEFmed-MEDVQA-GI-2025/refs/heads/main/kvasir-captions.json) that can be used for image generation task. 🛠️   
 
 ### 📥 **Datasets**  
-- 🏃 **Development Dataset:** [Download Here](https://huggingface.co/datasets/SimulaMet-HOST/Kvasir-VQA)  
+- 🏃 **Development Dataset:** [Kvasir-VQA](https://huggingface.co/datasets/SimulaMet-HOST/Kvasir-VQA) and [captions](https://raw.githubusercontent.com/simula/ImageCLEFmed-MEDVQA-GI-2025/refs/heads/main/kvasir-captions.json).
 - 🕑 **Test Dataset:** *Coming Soon* ⏳  
 
 ---
