@@ -22,10 +22,10 @@ This year's challenge includes **two exciting subtasks** 🚀 designed to push t
 
 
 #### 💥 Example Training Notebook: 
-[Demo with HuggingFace Trainer](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_Sample_Notebook.ipynb)  
+[Demo with HuggingFace Trainer](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_Sample_Notebook.ipynb)
 <a target="_blank" href="https://colab.research.google.com/github/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_Sample_Notebook.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-  </a>
+</a>
   
 [Demo with SWIFT CLI](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_with_ms_swift_Sample_Notebook.ipynb)
 <a target="_blank" href="https://colab.research.google.com/github/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/Task_1_with_ms_swift_Sample_Notebook.ipynb">
