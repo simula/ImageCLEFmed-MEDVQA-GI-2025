@@ -54,14 +54,16 @@ The 2025 dataset 🗃️ is an **extended version** of the **HyperKvasir dataset
 
 ### 📥 **Datasets**  
 - 🏃 **Development Dataset:** [Kvasir-VQA](https://huggingface.co/datasets/SimulaMet-HOST/Kvasir-VQA) and [captions](https://raw.githubusercontent.com/simula/ImageCLEFmed-MEDVQA-GI-2025/refs/heads/main/kvasir-captions.json).
-- 🕑 **Test Dataset:** *Coming Soon* ⏳  You can split the training dataset for model development now.
+- 🕑 **Validation/Test Dataset:** Can be accessed through submission/validation process (see [below](https://github.com/simula/ImageCLEFmed-MEDVQA-GI-2025/blob/main/README.md#:~:text=Validate,-Before)). This will give you the public score displayed on the leaderboard.
+You can split the training dataset for model development but we highly encourage to use the full development dataset in your final model.
+- 🤫 **Challenge Dataset:** Private split and is very similar to development/ validation dataset. Will be used to evaluate the models. Won't be released publicly.
 
 ---
 
 ## 🧪 **Evaluation Methodology**  
 
 ### 🏃 **Subtask 1: Question Interpretation and Response**  
-- 📊 **Metrics:** 🎯 *Accuracy*, 🔍 *Precision*, ♻️ *Recall*, and 🏆 *F1 Score*.  
+- 📊 **Metrics:** 📘 **METEOR**, 📖 **ROUGE** (1/2/L), and 🧠 **BLEU**.  
 - 📜 **Evaluation:** Based on **correctness** ✅ and **relevance** 📝 of answers using the provided **questions** 💬 and **images** 🖼️.
 
 ---
