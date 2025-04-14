@@ -100,6 +100,10 @@ First make sure your submission script works fine in your working environment an
 python submission_task1.py
 ```
 
+#### 📄 Additional Dependencies  
+If your code requires extra packages, you must include a `requirements.txt` in the **root of the repo**. The system will install these automatically during validation/submission.
+Else you will get package missing errors.
+
 Next, you can validate the script to work independently. The .py script should now be in the root of the same HuggingFace repo as your model. You can try this in a new venv:
 ```bash
 medvqa validate --competition=gi-2025 --task=1/2 --repo_id=<your_repo_id>
@@ -107,10 +111,6 @@ medvqa validate --competition=gi-2025 --task=1/2 --repo_id=<your_repo_id>
 - `--competition`: Set to `gi-2025`
 - `--task`: Use `1` for Task 1 or `2` for Task 2  
 - `--repo_id`: Your **HuggingFace model repo ID** (e.g., `SushantGautam/XXModelCheckpoint`)
-
-#### 📄 Additional Dependencies  
-If your code requires extra packages, you must include a `requirements.txt` in the **root of the repo**. The system will install these automatically during validation/submission.
-Else you will get package missing errors.
 
 ### 🚀 Submission Command  
 If validation is okey, you can just run:
