@@ -69,10 +69,11 @@ You can split the training dataset for model development but we highly encourage
 ---
 
 ### 🖼️ **Subtask 2: Synthetic Image Quality**  
-- 👀 **Subjective Evaluation:** 🩺 *Expert reviewers* will assess **realism** 🌟 and **diagnostic utility** 🏥.  
 - 🎯 **Objective Evaluation:**  
-  - 📉 **Fréchet Inception Distance (FID):** Similarity between synthetic and real images.  
-  - 🏗️ **Structural Similarity Index Measure (SSIM):** Resemblance in structure 🏛️.
+  - 📉 **Fréchet Inception Distance (FID):** How **realistic** the generated images are compared to real medical images.
+  - 🏗️ **Fidelity**, **Agreement** and **Diversity** 
+- 👀 **Subjective Evaluation:** 🩺 *Expert reviewers* will assess **realism** 🌟 and **diagnostic utility** 🏥.  
+
 ---
 
 ## 🏆 **Submission System**  
