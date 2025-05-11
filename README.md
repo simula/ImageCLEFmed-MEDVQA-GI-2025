@@ -134,8 +134,8 @@ If you encounter any issues with submission, **don’t hesitate to contact us**.
 - 📅 **14 February 2025:** 🏃 *Release of training & validation datasets*  
 - 📅 **9 April 2025:** ⏳ *Test datasets released*  
 - 📅 **25 April 2025:** 🚪 *Registration closes*  
-- 📅 **10 May 2025:** ⏲️ *Run submission deadline*  
-- 📅 **17 May 2025:** 🏆 *Processed results released*  
+- 📅 **~~10 May 2025~~ 19 May 2025:** ⏲️ *Run submission deadline*  
+- 📅 **~~17 May 2025~~ 23 May 2025:** 🏆 *Processed results released*  
 - 📅 **30 May 2025:** ✍️ *Participant papers submission [CEUR-WS]*  
 - 📅 **27 June 2025:** 💌 *Notification of acceptance*  
 - 📅 **7 July 2025:** 🖨️ *Camera-ready paper submission [CEUR-WS]*  
