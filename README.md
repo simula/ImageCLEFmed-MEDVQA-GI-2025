@@ -2,7 +2,7 @@
 
 📝 [**Registraion**](https://www.imageclef.org/2025#registration) | 📋 [View Registered Submissions](https://simulamet-medvqa.hf.space)
 
-The [**ImageCLEFmed-MEDVQA-GI**](https://www.imageclef.org/2025/medical/vqa) (3rd edition) challenge 🔬 focuses on integrating **Visual Question Answering (VQA)** with **synthetic gastrointestinal (GI) data** 🏥 to enhance **diagnostic accuracy** 🏃‍♂️💡 and **AI learning algorithms** 🤖.  
+The [**ImageCLEFmed-MEDVQA-GI**](https://www.imageclef.org/2025/medical/vqa) (3rd edition for ImageCLEFmedical) challenge 🔬 focuses on integrating **Visual Question Answering (VQA)** with **synthetic gastrointestinal (GI) data** 🏥 to enhance **diagnostic accuracy** 🏃‍♂️💡 and **AI learning algorithms** 🤖.  
 
 This year's challenge includes **two exciting subtasks** 🚀 designed to push the boundaries of **image analysis** 🖼️ and **synthetic medical image generation** 🧬, aiming to improve **diagnostic processes** 🏨 and **patient outcomes** 💖.
 
