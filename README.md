@@ -6,6 +6,9 @@ The [**ImageCLEFmed-MEDVQA-GI**](https://www.imageclef.org/2025/medical/vqa) (3r
 
 This year's challenge includes **two exciting subtasks** 🚀 designed to push the boundaries of **image analysis** 🖼️ and **synthetic medical image generation** 🧬, aiming to improve **diagnostic processes** 🏨 and **patient outcomes** 💖.
 
+> **📢 Note:** The **ImageCLEFmed-MEDVQA-GI-2025** competition has officially **ended**.  
+> A **newer edition** challenge, featuring an **updated dataset** and **expanded tasks**, has been announced:  🔗 [MediaEval Medico 2025 Challenge](https://github.com/simula/MediaEval-Medico-2025). We encourage you to check out the latest competition and participate!
+
 ---
 
 ## 🎯 **Task Descriptions**  
